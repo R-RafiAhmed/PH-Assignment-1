@@ -283,3 +283,73 @@ nav h2{
     font-weight: 700;
     line-height: 19px;
 }
+/* support part start */
+.support{
+    margin-top: 43px;
+    margin-bottom: 80px;
+}
+.inner-support{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.5)),
+    url("/assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 64px 48px;
+    border-radius: 16px;
+}
+.inner-support .inner-section-head h3{
+    color: rgb(255, 255, 255);
+}
+.inner-support .inner-section-head p{
+    color: rgb(255, 255, 255);
+}
+.feedback{
+    text-align: center;
+    margin-top: 24px;
+}
+.feedback input[type="text"]{
+    width: 548px;
+    padding: 19px 20px 19px 20px;
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+}
+.feedback input[type="submit"]{
+    padding: 17px 20px 17px 20px;
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    margin-left: 16px;
+}
+/* Footer part start */
+.foot{
+    padding: 32px 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.03);
+}
+.foot h4{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+}
+.foot ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+.foot ul li{
+    list-style: none;
+}
