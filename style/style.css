@@ -154,4 +154,132 @@ nav h2{
     padding: 32px 0;
 }
 /* Current Target part start */
-
+.current-target{
+    margin-bottom: 111px;
+}
+.current-target-item{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 48px;
+}
+.target-card1{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.target-card1 h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 24px 0 8px 0;
+}
+.target-card1 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+.target-card1 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.target-card2{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.target-card2 h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 24px 0 8px 0;
+}
+.target-card2 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+.target-card2 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+.target-card3{
+    padding: 40px 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.target-card3 h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin: 24px 0 8px 0;
+}
+.target-card3 p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+.target-card3 a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+/* Next Target start */
+.next-target .section-head{
+    margin-bottom: 48px;
+}
+.next-target-row{
+    display: flex;
+    padding: 40px 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 24px;   
+}
+.next-target-item-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.next-target-row img{
+    margin-right: 24px;
+}
+.next-target-item-text h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.next-target-item-text P{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+    opacity: 0.7;
+}
+.next-target-item-text a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
