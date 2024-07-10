@@ -62,7 +62,7 @@ nav h2{
 }
 /* Banner part start */
 .banner{
-    background: url("/assets/Hero-bg.png");
+    background: url("../assets/Hero-bg.png");
     text-align: center;
     margin-bottom: 74px;
 
@@ -302,7 +302,7 @@ nav h2{
 }
 .inner-support{
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.507), rgba(0, 0, 0, 0.5)),
-    url("/assets/handshake.jpg");
+    url("../assets/handshake.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
